@@ -85,7 +85,7 @@ namespace XMLWeather
                     foreach (XmlNode grandChild in child.ChildNodes)
                     {
                         foreach(XmlNode greatGrandChild in grandChild.ChildNodes)   
-                        {
+                        {  
 
                             d.date = grandChild.Attributes["day"].Value;
                              
